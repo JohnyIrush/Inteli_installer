@@ -1,111 +1,63 @@
 <template>
-    <div class="wizard-form">
+    <div class="wizard-form float-over sec-bg-color card">
         <div class="wizard-header">
             <h3>Digitize Institution</h3>
             <p>Efficient School Management.</p>
         </div>
-        <form class="form-register" action="#" method="post">
-            <div id="form-total">
-                <!-- SECTION 1 -->
-                <h2>1</h2>
-                <section>
-                    <div class="inner">
-                        <div class="form-row">
-                            <div class="form-holder">
-                                <input type="text" placeholder="First Name" class="form-control" id="first_name">
-                            </div>
-                            <div class="form-holder">
-                                <input type="text" placeholder="Last Name" class="form-control" id="last_name">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-holder">
-                                <input type="text" placeholder="Phone Number" class="form-control" id="phone">
-                            </div>
-                            <div class="form-holder">
-                                <input type="email" placeholder="Email" class="form-control" id="email">
-                            </div>
+        <ul class="nav nav-tabs" id="install-wizard" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="sch_name-tab" data-bs-toggle="tab" data-bs-target="#sch_name" type="button" role="tab" aria-controls="home" aria-selected="true">School Name</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#sch_details" type="button" role="tab" aria-controls="sch_details" aria-selected="false">School Details</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#admin_details" type="button" role="tab" aria-controls="admin_details" aria-selected="false">Admin Details</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="payment-tab" data-bs-toggle="tab" data-bs-target="#payment" type="button" role="tab" aria-controls="payment" aria-selected="false">Payment</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#installation" type="button" role="tab" aria-controls="installation" aria-selected="false">Installation</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="install-wizard-steps">
+            <div class="tab-pane fade show active" id="sch_name" role="tabpanel" aria-labelledby="sch_name-tab">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-3 mt-3">
+                            <label for="sch_name" class="form-label">School Name</label>
+                            <input type="text" class="form-control" id="sch_name" placeholder="...School">
                         </div>
                     </div>
-                </section>
-                <!-- SECTION 2 -->
-                <h2>2</h2>
-                <section>
-                    <div class="inner">
-                        <div class="form-row">
-                            <div class="form-holder form-holder-2">
-                                <select name="location" id="location" class="form-control">
-                                    <option value="" disabled selected>Choose A Location</option>
-                                    <option value="united states">United States</option>
-                                    <option value="united kingdom">United Kingdom</option>
-                                    <option value="viet nam">Viet Nam</option>
-                                </select>
-                                <span class="select-btn">
-											<i class="zmdi zmdi-chevron-down"></i>
-										</span>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-holder">
-                                <input type="text" name="date" class="date" id="date" placeholder="15 / Jan / 2018">
-                            </div>
-                            <div class="form-holder">
-                                <select name="" id="time" class="form-control">
-                                    <option value="7:00am - 18:00pm" selected>7:00am - 18:00pm</option>
-                                    <option value="9:00am - 21:00pm">9:00am - 21:00pm</option>
-                                    <option value="10:00am - 22:00pm">10:00am - 22:00pm</option>
-                                    <option value="12:00am - 24:00pm">12:00am - 24:00pm</option>
-                                </select>
-                                <span class="select-btn">
-											<i class="zmdi zmdi-chevron-down"></i>
-										</span>
-                            </div>
-                        </div>
+                    <div class="col-3">
+
                     </div>
-                </section>
-                <!-- SECTION 3 -->
-                <h2>3</h2>
-                <section>
-                    <div class="inner">
-                        <div class="form-row table-responsive">
-                            <table class="table">
-                                <tbody>
-                                <tr class="space-row">
-                                    <th>Full Name:</th>
-                                    <td id="fullname-val">Benjamin Harrison</td>
-                                </tr>
-                                <tr class="space-row">
-                                    <th>Phone:</th>
-                                    <td id="phone-val">+1 888-999-2222</td>
-                                </tr>
-                                <tr class="space-row">
-                                    <th>Email:</th>
-                                    <td id="email-val">allison.long@example.com</td>
-                                </tr>
-                                <tr class="space-row">
-                                    <th>Travel Location:</th>
-                                    <td id="location-val">Tokyo Japan</td>
-                                </tr>
-                                <tr class="space-row">
-                                    <th>Date:</th>
-                                    <td id="date-val">15 Jan, 2018</td>
-                                </tr>
-                                <tr class="space-row">
-                                    <th>Time:</th>
-                                    <td id="time-val">7:00am - 18:00pm</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </section>
+                </div>
             </div>
-        </form>
+            <div class="tab-pane fade" id="sch_details" role="tabpanel" aria-labelledby="sch_details-tab">2</div>
+            <div class="tab-pane fade" id="admin_details" role="tabpanel" aria-labelledby="admin_details-tab">3</div>
+            <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">4</div>
+            <div class="tab-pane fade" id="installation" role="tabpanel" aria-labelledby="installation-tab">5</div>
+        </div>
     </div>
 </template>
 
 <style>
-
+.float-over
+{
+    left: 30% !important;
+    /*float: left !important;*/
+    position: fixed;
+}
+#install-wizard-steps
+{
+    min-height: 50vh;
+    min-width: 800px
+}
 </style>
 
 <script>

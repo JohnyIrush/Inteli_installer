@@ -1,17 +1,20 @@
 <template>
     <div class="page-content container-fluid" >
         <div class="wizard-v2-content">
-            <carousel></carousel>
-            <wizard></wizard>
+            <div class="row">
+                <div class="col-6">
+                    <carousel></carousel>
+                </div>
+                <div class="col-6">
+                    <wizard></wizard>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
-<style>
-.page-content
-{
-    background-image: linear-gradient(to right, #fb040f, #ff0047, #ff0078, #eb00aa, #bd08d8) !important;
-}
+<style scoped>
+
 </style>
 
 <script>
