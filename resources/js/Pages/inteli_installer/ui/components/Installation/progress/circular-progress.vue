@@ -111,7 +111,6 @@ export default
 {
     mounted()
     {
-        alert("mounted")
         const prog = document.querySelector('.number');
         let counter = 0;
 

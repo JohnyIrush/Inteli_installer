@@ -21636,10 +21636,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _progress_circular_progress_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./progress/circular-progress.vue */ "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/circular-progress.vue");
+/* harmony import */ var _progress_progress_bar_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./progress/progress-bar.vue */ "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue");
+/* harmony import */ var _stages_configure_inteli_system_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./stages/configure-inteli-system.vue */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue");
+
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    circular_progress: _progress_circular_progress_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+    circular_progress: _progress_circular_progress_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    progress_bar: _progress_progress_bar_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    config_inteli_system: _stages_configure_inteli_system_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   }
 });
 
@@ -21684,7 +21690,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
-    alert("mounted");
     var prog = document.querySelector('.number');
     var counter = 0;
     setInterval(function () {
@@ -21695,6 +21700,81 @@ __webpack_require__.r(__webpack_exports__);
     }, 80);
   }
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=script&lang=js":
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=script&lang=js":
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=script&lang=js ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=script&lang=js":
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=script&lang=js ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=script&lang=js":
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=script&lang=js ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=script&lang=js":
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=script&lang=js ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
 
@@ -27422,45 +27502,43 @@ var _hoisted_1 = {
   "class": "card ml-2"
 };
 var _hoisted_2 = {
-  "class": "row mt-3 mb-3 ml-1 mr-1"
+  "class": "row rows mt-3 mb-3 ml-1 mr-1 justify-content-center"
 };
 var _hoisted_3 = {
-  "class": "col-2"
+  "class": "col"
 };
-
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-1 connectors"
-}, null, -1
-/* HOISTED */
-);
-
+var _hoisted_4 = {
+  "class": "col connectors"
+};
 var _hoisted_5 = {
-  "class": "col-2"
+  "class": "col"
 };
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-1 connectors"
-}, null, -1
-/* HOISTED */
-);
-
+var _hoisted_6 = {
+  "class": "col connectors"
+};
 var _hoisted_7 = {
-  "class": "col-2"
+  "class": "col"
 };
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-1 connectors"
-}, null, -1
-/* HOISTED */
-);
-
+var _hoisted_8 = {
+  "class": "col connectors"
+};
 var _hoisted_9 = {
-  "class": "col-2"
+  "class": "col"
+};
+var _hoisted_10 = {
+  "class": "row mt-5"
+};
+var _hoisted_11 = {
+  "class": "col"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_circular_progress = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("circular_progress");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_circular_progress)]), _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_circular_progress)]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_circular_progress)]), _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_circular_progress)])])]);
+  var _component_progress_bar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("progress_bar");
+
+  var _component_config_inteli_system = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("config_inteli_system");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_circular_progress)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_progress_bar)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_circular_progress)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_progress_bar)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_circular_progress)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_progress_bar)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_circular_progress)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_config_inteli_system)])])]);
 }
 
 /***/ }),
@@ -27523,6 +27601,120 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVN
 var _hoisted_4 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=template&id=5abe2cd8&scoped=true":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=template&id=5abe2cd8&scoped=true ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+var _withScopeId = function _withScopeId(n) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-5abe2cd8"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n;
+};
+
+var _hoisted_1 = {
+  "class": "bar"
+};
+
+var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "progress-bar"
+  }, null, -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_3 = [_hoisted_2];
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=template&id=42b51cb5&scoped=true":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=template&id=42b51cb5&scoped=true ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+var _withScopeId = function _withScopeId(n) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-42b51cb5"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n;
+};
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"config\" data-v-42b51cb5><img src=\"/images/cog.png\" class=\"rotate_01\" alt=\"\" srcset=\"\" data-v-42b51cb5></div><div class=\"config\" data-v-42b51cb5><img src=\"/images/cog.png\" class=\"rotate_02\" alt=\"\" srcset=\"\" data-v-42b51cb5></div><div class=\"config\" data-v-42b51cb5><img src=\"/images/cog.png\" class=\"rotate_03\" alt=\"\" srcset=\"\" data-v-42b51cb5></div>", 3);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return _hoisted_1;
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=template&id=0841b59f":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=template&id=0841b59f ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return null;
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=template&id=300076ea":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=template&id=300076ea ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return null;
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=template&id=10920d7c":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=template&id=10920d7c ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return null;
 }
 
 /***/ }),
@@ -28482,7 +28674,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.connectors\n{\n    height: 20px !important;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.connectors\n{\n    padding-top: 20px !important; \n    position: relative;\n    left: -20px !important;\n}\n.rows\n{\n  width: 100% !important;\n  display: flex !important;\n  flex-direction: row !important;\n  justify-content: center !important;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28531,6 +28723,54 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n.circular[data-v-4f741f86]\r\n{\r\n    height: 50px;\r\n    width: 50px;\r\n    position: relative;\r\n    transform: scale(2);\n}\n.circular .inner[data-v-4f741f86]\r\n{\r\n    position: absolute;\r\n    z-index: 6;\r\n    top: 50%;\r\n    left: 50%;\r\n    height: 30px;\r\n    width: 30px;\r\n    margin: -15px 0 0 -15px;\r\n    background: #dde6f0;\r\n    border-radius: 100%;\r\n    box-shadow: 0 1px 0 rgb(0, 0, 0, 0.2);\n}\n.circular .number[data-v-4f741f86] \r\n{\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n    z-index: 10;\r\n    font-size: 7px;\r\n    font-weight: 500;\r\n    color: #4158d0;\n}\n.circular .bar[data-v-4f741f86]\r\n{\r\n    position: absolute;\r\n    height: 100%;\r\n    width: 100%;\r\n    background: #fff;\r\n    -webkit-border-radius: 100%;\r\n    clip:  rect(0px, 50px, 50px, 25px);\n}\n.circle .bar .progress[data-v-4f741f86]\r\n{\r\n    position: absolute;\r\n    height: 100%;\r\n    width: 100%;\r\n    -webkit-border-radius: 100%;\r\n    clip:  rect(0px, 25px, 50px, 0px);\r\n    background-image: linear-gradient(to right, #fb040f, #ff0047, #ff0078, #eb00aa, #bd08d8) !important;\n}\n.circle .left .progress[data-v-4f741f86]\r\n{\r\n    z-index: 1;\r\n    -webkit-animation: left-4f741f86 4s linear both;\r\n            animation: left-4f741f86 4s linear both;\n}\n@-webkit-keyframes left-4f741f86\r\n{\n100%\r\n    {\r\n       transform: rotate(180deg);\n}\n}\n@keyframes left-4f741f86\r\n{\n100%\r\n    {\r\n       transform: rotate(180deg);\n}\n}\n.circle .right[data-v-4f741f86]\r\n{\r\n    z-index: 3;\r\n    transform: rotate(180deg);\n}\n.circle .right .progress[data-v-4f741f86]\r\n{\r\n    -webkit-animation: right-4f741f86 4s linear both;\r\n            animation: right-4f741f86 4s linear both;\r\n    -webkit-animation-delay: 4s;\r\n            animation-delay: 4s;\n}\n@-webkit-keyframes right-4f741f86\r\n{\n100%\r\n    {\r\n       transform: rotate(180deg);\n}\n}\n@keyframes right-4f741f86\r\n{\n100%\r\n    {\r\n       transform: rotate(180deg);\n}\n}\r\n\r\n\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.bar[data-v-5abe2cd8]\r\n{\r\n    height: 20px;\r\n    background-color: floralwhite;\r\n    position: relative;\r\n    border-radius: 7px;\n}\n.bar .progress-bar[data-v-5abe2cd8]\r\n{\r\n    position: absolute;\r\n    height: 100%;\r\n    background-image: linear-gradient(to right, #fb040f, #ff0047, #ff0078, #eb00aa, #bd08d8) !important;\r\n    -webkit-animation: progress-animation-5abe2cd8 5s forwards;\r\n            animation: progress-animation-5abe2cd8 5s forwards;\r\n    border-radius: 7px;\n}\n@-webkit-keyframes progress-animation-5abe2cd8\r\n{\n0%{\r\n        width: 0%;\n}\n100%\r\n    {\r\n        width: 100%;\n}\n}\n@keyframes progress-animation-5abe2cd8\r\n{\n0%{\r\n        width: 0%;\n}\n100%\r\n    {\r\n        width: 100%;\n}\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.config[data-v-42b51cb5]\r\n{\r\n    padding: 0;\r\n    margin: 0;\r\n    background-size: cover;\n}\n.rotate_01[data-v-42b51cb5]\r\n{\r\n    display: block;\r\n    position: relative;\r\n    top: 50%;\r\n    left: 50%;\r\n    width: 150px;\r\n    height: 150px;\r\n    margin: -60px 0 0 -280px;\r\n    -webkit-animation: animate-42b51cb5 2s linear infinite;\r\n            animation: animate-42b51cb5 2s linear infinite;\n}\n@-webkit-keyframes animate-42b51cb5\r\n{\n0%\r\n    {\r\n        transform: rotate(0deg);\n}\n100%\r\n    {\r\n        transform: rotate(360deg);\n}\n}\n@keyframes animate-42b51cb5\r\n{\n0%\r\n    {\r\n        transform: rotate(0deg);\n}\n100%\r\n    {\r\n        transform: rotate(360deg);\n}\n}\n.rotate_03[data-v-42b51cb5]\r\n{\r\n    display: block;\r\n    position: relative;\r\n    top: 50%;\r\n    left: 50%;\r\n    width: 150px;\r\n    height: 150px;\r\n    margin: -60px 0 0 -280px;\r\n    -webkit-animation: animate3-42b51cb5 2s linear infinite;\r\n            animation: animate3-42b51cb5 2s linear infinite;\n}\n@-webkit-keyframes animate3-42b51cb5\r\n{\n0%\r\n    {\r\n        transform: rotate(0deg);\n}\n100%\r\n    {\r\n        transform: rotate(360deg);\n}\n}\n@keyframes animate3-42b51cb5\r\n{\n0%\r\n    {\r\n        transform: rotate(0deg);\n}\n100%\r\n    {\r\n        transform: rotate(360deg);\n}\n}\n.rotate_02[data-v-42b51cb5]\r\n{\r\n    display: block;\r\n    position: relative;\r\n    top: 50%;\r\n    left: 50%;\r\n    width: 150px;\r\n    height: 150px;\r\n    margin: -60px 0 0 -280px;\r\n    -webkit-animation: animate2-42b51cb5 2s linear infinite;\r\n            animation: animate2-42b51cb5 2s linear infinite;\n}\n@-webkit-keyframes animate2-42b51cb5\r\n{\n0%\r\n    {\r\n        transform: rotate(0deg);\n}\n100%\r\n    {\r\n        transform: rotate(-360deg);\n}\n}\n@keyframes animate2-42b51cb5\r\n{\n0%\r\n    {\r\n        transform: rotate(0deg);\n}\n100%\r\n    {\r\n        transform: rotate(-360deg);\n}\n}\n.rows[data-v-42b51cb5]\r\n{\r\n  width: 100% !important;\r\n  display: flex !important;\r\n  flex-direction: row !important;\r\n  justify-content: center !important;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -52562,6 +52802,66 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_progress_bar_vue_vue_type_style_index_0_id_5abe2cd8_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_progress_bar_vue_vue_type_style_index_0_id_5abe2cd8_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_progress_bar_vue_vue_type_style_index_0_id_5abe2cd8_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_configure_inteli_system_vue_vue_type_style_index_0_id_42b51cb5_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_configure_inteli_system_vue_vue_type_style_index_0_id_42b51cb5_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_configure_inteli_system_vue_vue_type_style_index_0_id_42b51cb5_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/wizard/spinners/color-spinner-static.vue?vue&type=style&index=0&id=3153b355&scoped=true&lang=css":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/wizard/spinners/color-spinner-static.vue?vue&type=style&index=0&id=3153b355&scoped=true&lang=css ***!
@@ -54523,6 +54823,152 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _progress_bar_vue_vue_type_template_id_5abe2cd8_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./progress-bar.vue?vue&type=template&id=5abe2cd8&scoped=true */ "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=template&id=5abe2cd8&scoped=true");
+/* harmony import */ var _progress_bar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./progress-bar.vue?vue&type=script&lang=js */ "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=script&lang=js");
+/* harmony import */ var _progress_bar_vue_vue_type_style_index_0_id_5abe2cd8_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css */ "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css");
+/* harmony import */ var C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+
+
+const __exports__ = /*#__PURE__*/(0,C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_progress_bar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_progress_bar_vue_vue_type_template_id_5abe2cd8_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-5abe2cd8"],['__file',"resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue ***!
+  \***********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _configure_inteli_system_vue_vue_type_template_id_42b51cb5_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./configure-inteli-system.vue?vue&type=template&id=42b51cb5&scoped=true */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=template&id=42b51cb5&scoped=true");
+/* harmony import */ var _configure_inteli_system_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./configure-inteli-system.vue?vue&type=script&lang=js */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=script&lang=js");
+/* harmony import */ var _configure_inteli_system_vue_vue_type_style_index_0_id_42b51cb5_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css");
+/* harmony import */ var C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+
+
+const __exports__ = /*#__PURE__*/(0,C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_configure_inteli_system_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_configure_inteli_system_vue_vue_type_template_id_42b51cb5_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-42b51cb5"],['__file',"resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue ***!
+  \***************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _create_database_vue_vue_type_template_id_0841b59f__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./create-database.vue?vue&type=template&id=0841b59f */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=template&id=0841b59f");
+/* harmony import */ var _create_database_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./create-database.vue?vue&type=script&lang=js */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=script&lang=js");
+/* harmony import */ var C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_create_database_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_create_database_vue_vue_type_template_id_0841b59f__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue ***!
+  \*********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _install_inteli_system_vue_vue_type_template_id_300076ea__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./install-inteli-system.vue?vue&type=template&id=300076ea */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=template&id=300076ea");
+/* harmony import */ var _install_inteli_system_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./install-inteli-system.vue?vue&type=script&lang=js */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=script&lang=js");
+/* harmony import */ var C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_install_inteli_system_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_install_inteli_system_vue_vue_type_template_id_300076ea__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _install_packages_vue_vue_type_template_id_10920d7c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./install-packages.vue?vue&type=template&id=10920d7c */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=template&id=10920d7c");
+/* harmony import */ var _install_packages_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./install-packages.vue?vue&type=script&lang=js */ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=script&lang=js");
+/* harmony import */ var C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,C_wamp_apps_Inteli_packages_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_install_packages_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_install_packages_vue_vue_type_template_id_10920d7c__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/inteli_installer/ui/components/wizard/spinners/color-spinner-static.vue":
 /*!****************************************************************************************************!*\
   !*** ./resources/js/Pages/inteli_installer/ui/components/wizard/spinners/color-spinner-static.vue ***!
@@ -55512,6 +55958,86 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=script&lang=js":
+/*!**************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=script&lang=js ***!
+  \**************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_progress_bar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_progress_bar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./progress-bar.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=script&lang=js":
+/*!***********************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=script&lang=js ***!
+  \***********************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_configure_inteli_system_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_configure_inteli_system_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./configure-inteli-system.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=script&lang=js":
+/*!***************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=script&lang=js ***!
+  \***************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_create_database_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_create_database_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./create-database.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=script&lang=js":
+/*!*********************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=script&lang=js ***!
+  \*********************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_install_inteli_system_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_install_inteli_system_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./install-inteli-system.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=script&lang=js":
+/*!****************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=script&lang=js ***!
+  \****************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_install_packages_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_install_packages_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./install-packages.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Pages/inteli_installer/ui/plugins/Installation.vue?vue&type=script&lang=js":
 /*!*************************************************************************************************!*\
   !*** ./resources/js/Pages/inteli_installer/ui/plugins/Installation.vue?vue&type=script&lang=js ***!
@@ -56472,6 +56998,86 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=template&id=5abe2cd8&scoped=true":
+/*!********************************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=template&id=5abe2cd8&scoped=true ***!
+  \********************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_progress_bar_vue_vue_type_template_id_5abe2cd8_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_progress_bar_vue_vue_type_template_id_5abe2cd8_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./progress-bar.vue?vue&type=template&id=5abe2cd8&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=template&id=5abe2cd8&scoped=true");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=template&id=42b51cb5&scoped=true":
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=template&id=42b51cb5&scoped=true ***!
+  \*****************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_configure_inteli_system_vue_vue_type_template_id_42b51cb5_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_configure_inteli_system_vue_vue_type_template_id_42b51cb5_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./configure-inteli-system.vue?vue&type=template&id=42b51cb5&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=template&id=42b51cb5&scoped=true");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=template&id=0841b59f":
+/*!*********************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=template&id=0841b59f ***!
+  \*********************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_create_database_vue_vue_type_template_id_0841b59f__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_create_database_vue_vue_type_template_id_0841b59f__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./create-database.vue?vue&type=template&id=0841b59f */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue?vue&type=template&id=0841b59f");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=template&id=300076ea":
+/*!***************************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=template&id=300076ea ***!
+  \***************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_install_inteli_system_vue_vue_type_template_id_300076ea__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_install_inteli_system_vue_vue_type_template_id_300076ea__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./install-inteli-system.vue?vue&type=template&id=300076ea */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue?vue&type=template&id=300076ea");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=template&id=10920d7c":
+/*!**********************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=template&id=10920d7c ***!
+  \**********************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_install_packages_vue_vue_type_template_id_10920d7c__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_install_packages_vue_vue_type_template_id_10920d7c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./install-packages.vue?vue&type=template&id=10920d7c */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue?vue&type=template&id=10920d7c");
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/inteli_installer/ui/components/wizard/spinners/color-spinner-static.vue?vue&type=template&id=3153b355&scoped=true":
 /*!**********************************************************************************************************************************************!*\
   !*** ./resources/js/Pages/inteli_installer/ui/components/wizard/spinners/color-spinner-static.vue?vue&type=template&id=3153b355&scoped=true ***!
@@ -56616,6 +57222,32 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_circular_progress_vue_vue_type_style_index_0_id_4f741f86_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/style-loader/dist/cjs.js!../../../../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./circular-progress.vue?vue&type=style&index=0&id=4f741f86&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/circular-progress.vue?vue&type=style&index=0&id=4f741f86&scoped=true&lang=css");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css ***!
+  \**********************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_progress_bar_vue_vue_type_style_index_0_id_5abe2cd8_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/style-loader/dist/cjs.js!../../../../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue?vue&type=style&index=0&id=5abe2cd8&scoped=true&lang=css");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css ***!
+  \*******************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_configure_inteli_system_vue_vue_type_style_index_0_id_42b51cb5_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../../node_modules/style-loader/dist/cjs.js!../../../../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue?vue&type=style&index=0&id=42b51cb5&scoped=true&lang=css");
 
 
 /***/ }),
@@ -56924,6 +57556,11 @@ var map = {
 	"./inteli_installer/ui/components/Installation/progress.vue": "./resources/js/Pages/inteli_installer/ui/components/Installation/progress.vue",
 	"./inteli_installer/ui/components/Installation/progress/circular-gradient.vue": "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/circular-gradient.vue",
 	"./inteli_installer/ui/components/Installation/progress/circular-progress.vue": "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/circular-progress.vue",
+	"./inteli_installer/ui/components/Installation/progress/progress-bar.vue": "./resources/js/Pages/inteli_installer/ui/components/Installation/progress/progress-bar.vue",
+	"./inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue": "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/configure-inteli-system.vue",
+	"./inteli_installer/ui/components/Installation/stages/create-database.vue": "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/create-database.vue",
+	"./inteli_installer/ui/components/Installation/stages/install-inteli-system.vue": "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-inteli-system.vue",
+	"./inteli_installer/ui/components/Installation/stages/install-packages.vue": "./resources/js/Pages/inteli_installer/ui/components/Installation/stages/install-packages.vue",
 	"./inteli_installer/ui/components/wizard/spinners/color-spinner-static.vue": "./resources/js/Pages/inteli_installer/ui/components/wizard/spinners/color-spinner-static.vue",
 	"./inteli_installer/ui/components/wizard/spinners/color-spinner.vue": "./resources/js/Pages/inteli_installer/ui/components/wizard/spinners/color-spinner.vue",
 	"./inteli_installer/ui/plugins/Installation.vue": "./resources/js/Pages/inteli_installer/ui/plugins/Installation.vue",
