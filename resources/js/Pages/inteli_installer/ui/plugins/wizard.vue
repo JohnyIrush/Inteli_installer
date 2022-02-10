@@ -8,19 +8,69 @@
         <div class="card-body">
             <ul class="nav nav-tabs" id="install-wizard" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="sch_name-tab" data-bs-toggle="tab" data-bs-target="#sch_name" type="button" role="tab" aria-controls="home" aria-selected="true">School Name</button>
+                    <div class="row">
+                        <div class="col">
+                            <color_spinner v-if="!steps.one"></color_spinner>
+                            <color_spinner_static v-if="steps.one"></color_spinner_static>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="nav-link active" id="sch_name-tab" data-bs-toggle="tab" data-bs-target="#sch_name" type="button" role="tab" aria-controls="sch_name" aria-selected="true">School Name</button>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#sch_details" type="button" role="tab" aria-controls="sch_details" aria-selected="false">School Details</button>
+                    <div class="row">
+                        <div class="col">
+                            <color_spinner v-if="!steps.two"></color_spinner>
+                            <color_spinner_static v-if="steps.two"></color_spinner_static>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                         <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#sch_details" type="button" role="tab" aria-controls="sch_details" aria-selected="false">School Details</button>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#admin_details" type="button" role="tab" aria-controls="admin_details" aria-selected="false">Admin Details</button>
+                    <div class="row">
+                        <div class="col">
+                            <color_spinner v-if="!steps.three"></color_spinner>
+                            <color_spinner_static v-if="steps.three"></color_spinner_static>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#admin_details" type="button" role="tab" aria-controls="admin_details" aria-selected="false">Admin Details</button>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="payment-tab" data-bs-toggle="tab" data-bs-target="#payment" type="button" role="tab" aria-controls="payment" aria-selected="false">Payment</button>
+                    <div class="row">
+                        <div class="col">
+                            <color_spinner v-if="!steps.four"></color_spinner>
+                            <color_spinner_static v-if="steps.four"></color_spinner_static>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="nav-link" id="payment-tab" data-bs-toggle="tab" data-bs-target="#payment" type="button" role="tab" aria-controls="payment" aria-selected="false">Payment</button>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#installation" type="button" role="tab" aria-controls="installation" aria-selected="false">Installation</button>
+                    <div class="row">
+                        <div class="col">
+                            <color_spinner v-if="!steps.five"></color_spinner>
+                            <color_spinner_static v-if="steps.five"></color_spinner_static>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#installation" type="button" role="tab" aria-controls="installation" aria-selected="false">Installation</button>
+                        </div>
+                    </div>
                 </li>
             </ul>
             <div class="tab-content" id="install-wizard-steps">
@@ -163,17 +213,22 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="installation" role="tabpanel" aria-labelledby="installation-tab">
-
+                    <div class="row mt- 3 mb-3">
+                        <div class="col-12">
+                            <button class="btn text-white btn-lg  btn-outline tertiary-bg-first-color" type="button" data-bs-toggle="collapse" data-bs-target="#Insallation-progress" aria-expanded="false" aria-controls="Insallation-progress" >Install <i class="fas fa-rocket fa-2x"></i></button>
+                        </div>
+                    </div>
+                    <installation></installation>
                 </div>
             </div>
         </div>
         <div class="card-footer">
             <div class="row justify-content-end">
                 <div class="col">
-                    <button class="btn  btn-outline tertiary-bg-first-color">Back</button>
+                    <button v-if="step > 1 && step <= navs.length" v-on:click="backSteps()" id="back" class="btn  btn-outline tertiary-bg-first-color text-white" data-bs-toggle="tab" data-bs-target="" type="button" role="tab" aria-controls="" aria-selected="false">Back</button>
                 </div>
                 <div class="col">
-                    <button class="btn  btn-outline tertiary-bg-first-color">Next</button>
+                    <button v-if="step >= 0 && step < navs.length" v-on:click="nextSteps()" id="next" class="btn  btn-outline tertiary-bg-first-color text-white" data-bs-toggle="tab" data-bs-target="" type="button" role="tab" aria-controls="" aria-selected="false">Next</button>
                 </div>
             </div>
         </div>
@@ -195,25 +250,140 @@
 </style>
 
 <script>
+import color_spinner from '../components/wizard/spinners/color-spinner.vue'
+import color_spinner_static from '../components/wizard/spinners/color-spinner-static.vue'
+import installation from './Installation.vue'
 export default {
+    components:
+        {
+            color_spinner,
+            color_spinner_static,
+            installation
+        },
     data() {
         return {
             school: this.$inertia.form({
                 sch_name: '',
                 sch_email: '',
                 sch_address: '',
-                sch_phone: -1,
+                sch_phone: '',
                 sch_location: '',
+                sch_logo: '',
                 inteli_code: ''
             }),
             admin: this.$inertia.form({
-                sch_name: '',
-                sch_email: '',
-                sch_address: '',
-                sch_phone: -1,
-                sch_location: ''
+                name: '',
+                email: '',
+                address: '',
+                phone: '',
+                location: ''
             }),
+            steps: {
+                one: false,
+                two: false,
+                three: false,
+                four: false,
+                five: false
+            },
+            installation_status: false,
+            step: 1,
+            navs: ['sch_name', 'sch_details', 'admin_details', 'payment','installation'],
+            pane: ['sch_name', 'sch_details', 'admin_details', 'payment','installation'],
         }
     },
+    watch:
+        {
+          school: function ()
+          {
+              if(this.school.sch_name == '')
+                  this.steps.one = false
+              else
+                  this.steps.one = true
+
+              if(this.school.sch_name == '' || this.school.sch_name == '' || this.school.sch_email == '' || this.school.sch_address == '' || this.school.sch_phone == '' || school.sch_location == '' || sch_logo)
+                  this.steps.two = false
+              else
+                  this.steps.two = true
+
+
+              if(this.school.inteli_code == '')
+                  this.steps.four = false
+              else
+                  this.steps.four = true
+
+          },
+            admin: function ()
+            {
+
+                if(this.admin.name == '' || this.admin.email == ''  || this.admin.phone == '')
+                    this.steps.three = false
+                else
+                    this.steps.three = true
+            },
+            installation_status: function () {
+                if(this.installation_status == false)
+                    this.steps.five = false
+                else
+                    this.steps.five = true
+            }
+        },
+    methods:
+        {
+            stepsValidation()
+            {
+                if(this.school.sch_name == '')
+                    this.steps.one = false
+                else
+                    this.steps.one = true
+
+                if(this.school.sch_name == '' || this.school.sch_name == '' || this.school.sch_email == '' || this.school.sch_address == '' || this.school.sch_phone == '' || school.sch_location == '' || sch_logo)
+                    this.steps.two = false
+                else
+                    this.steps.two = true
+
+
+                if(this.admin.name == '' || this.admin.email == ''  || this.admin.phone == '')
+                    this.steps.three = false
+                else
+                    this.steps.three = true
+
+                if(this.school.inteli_code == '')
+                    this.steps.four = false
+                else
+                    this.steps.four = true
+
+                if(this.installation_status == false)
+                    this.steps.five = false
+                else
+                    this.steps.five = true
+            },
+            nextSteps()
+            {
+                var next = document.getElementById(this.navs[this.step]);
+                next.classList.remove('show')
+                this.step += 1;
+
+                var next = document.getElementById(this.navs[this.step]);
+
+                next.className = 'show';
+
+            },
+            backSteps()
+            {
+                var back = document.getElementById(this.navs[this.step]);
+                back.classList.remove('show');
+                this.step -= 1;
+
+                var back = document.getElementById(this.navs[this.step]);
+
+                back.className = 'show';
+
+            }
+        },
+    mounted()
+    {
+        //this.stepsValidation();
+        //this.stepsNavigation();
+    }
 }
 </script>

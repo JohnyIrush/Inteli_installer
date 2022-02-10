@@ -1,0 +1,123 @@
+<template>
+    <div id="body">
+        <div class="install-progress">
+            <div class="outer">
+                <div class="inner">
+                  <div id="number">
+                      65%
+                  </div>  
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                 <defs>
+                    <linearGradient id="GradientColor">
+                       <stop offset="0%" stop-color="#e91e63" />
+                       <stop offset="100%" stop-color="#673ab7" />
+                    </linearGradient>
+                 </defs>
+                 <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+         </svg>
+    </div>
+</template>
+
+<style scoped>
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: boredr-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#body
+{
+    background: #e3edf7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.install-progress
+{
+    width: 160px;
+    height: 160px;
+    /*background: cornflowerblue;*/
+    position: relative;
+}
+
+.outer
+{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05),
+}
+
+#number
+{
+    font-weight: 600;
+    color: #555;
+}
+
+circle
+{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 0;
+    animation: anim 2s linear forwards;
+}
+
+svg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim
+{
+    100%
+    {
+        stroke-dashoffset: 165;
+    }
+}
+</style>
+
+<script>
+export default
+{
+    mounted() {
+        let number = document.getElementById("number");
+        let counter = 0;
+        setInterval(()=>{
+            if(counter == 65)
+               clearInterval();
+            else
+            {
+              counter += 1;
+              number.innerHTML = counter + "%";
+            }
+        }, 30)
+    },
+}
+</script>
