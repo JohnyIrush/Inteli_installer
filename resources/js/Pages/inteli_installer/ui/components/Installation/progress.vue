@@ -23,9 +23,17 @@
             <circular_progress></circular_progress>
         </div>
     </div>
+   </div>
+   <div class="card mt-5">
     <div class="row mt-5">
-        <div class="col">
-           <config_inteli_system></config_inteli_system> 
+        <div id="" class="col stages">
+           <install_inteli_system></install_inteli_system>
+        </div>
+        <div class="col stages" v-if="1 == 0">
+           <install_packages></install_packages>
+        </div>
+        <div id="" class="col stages" v-if="1 == 0">
+           <config_inteli_system ></config_inteli_system> 
         </div>
     </div>
    </div>
@@ -36,6 +44,8 @@
 import circular_progress from './progress/circular-progress.vue'
 import progress_bar from './progress/progress-bar.vue'
 import config_inteli_system  from './stages/configure-inteli-system.vue'
+import install_inteli_system from './stages/install-inteli-system.vue';
+import install_packages from './stages/install-packages.vue';
 
 export default
 {
@@ -43,13 +53,15 @@ export default
     {
         circular_progress,
         progress_bar,
-        config_inteli_system
+        config_inteli_system,
+        install_inteli_system,
+        install_packages 
     }
 }
 
 </script>
 
-<style>
+<style scoped>
 .connectors
 {
     padding-top: 20px !important; 
@@ -63,4 +75,5 @@ export default
   flex-direction: row !important;
   justify-content: center !important;
 }
+
 </style>
